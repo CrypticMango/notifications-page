@@ -85,6 +85,7 @@ img {
 .msg-content {
 	color: var(--dark-grayish-blue);
     font-weight: 800;
+    padding-left: 5px;
 }
 
 .msg-content:hover {
@@ -117,6 +118,7 @@ img {
 .chess-club {
     color: var(--blue);
     font-weight: 800;
+    padding-left: 5px;
 }
 
 .chess-club:hover {
