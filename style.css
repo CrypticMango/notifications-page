@@ -33,7 +33,7 @@ h1 {
 }
 
 img {
-    width: 40px;
+    width: 35px;
     margin-right: 10px;
 }
 
@@ -48,18 +48,15 @@ img {
 }
 
 .notification-card-b {
-    background-color: var(--light-grayish-blue-one);
-    margin: 5px 15px;
-    display: flex;
-    padding: 10px;
+    background-color: var(--very-light-grayish-blue);
+    border-radius: 6px;
 }
 
-.notification-card {
-    background-color: var(--light-grayish-blue-two);
-    margin: 0px 15px;
+.notification-card, .notification-card-b {
+    margin: 10px 15px;
     display: flex;
-    padding: 10;
-    margin: 5px 15px;
+    padding: 10px;
+   
 }
 
 .name {
@@ -86,6 +83,11 @@ img {
     padding: 15px 15px 15px 15px;
 }
 
+.chess-club {
+    color: var(--blue);
+    font-weight: 800;
+}
+
 .kimberly-card {
 	display: flex;
 	flex-direction: row;
@@ -106,6 +108,6 @@ footer {
 
 .fa-brands {
 	font-size: 30px;
-	margin-top: 30px;
+	margin: 20px;
     color: var(--blue);
 }
