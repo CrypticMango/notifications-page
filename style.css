@@ -58,6 +58,15 @@ img {
     padding: 10px;
 }
 
+.red-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--red);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
 .name {
 	color: var(--very-dark-grayish-blue);
 	font-weight: 800;
