@@ -72,13 +72,28 @@ img {
 	font-weight: 800;
 }
 
+.name:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
 .notification-msg {
 	color: var(--dark-grayish-blue);
+    padding-left: 5px;
 }
 
 .msg-content {
 	color: var(--dark-grayish-blue);
     font-weight: 800;
+}
+
+.msg-content:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.jacob-card {
+    padding-right: 20px;
 }
 
 .time {
@@ -94,9 +109,26 @@ img {
     color: var(--dark-grayish-blue);
 }
 
+.private-msg:hover {
+    background-color: var(--light-grayish-blue-one);
+    cursor: pointer;
+}
+
 .chess-club {
     color: var(--blue);
     font-weight: 800;
+}
+
+.chess-club:hover {
+    cursor: pointer;
+}
+
+.chess-pic {
+    margin-left: 20px;
+}
+
+.chess-pic:hover {
+    cursor: pointer;
 }
 
 .kimberly-card {
