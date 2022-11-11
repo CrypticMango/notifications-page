@@ -1,55 +1,111 @@
 :root {
-    --red:  hsl(1, 90%, 64%);
-    --blue: hsl(219, 85%, 26%);
-    --white: hsl(0, 0%, 100%);
-    --very-light-grayish-blue: hsl(210, 60%, 98%);
-    --light-grayish-blue-one: hsl(211, 68%, 94%);
-    --light-grayish-blue-two: hsl(205, 33%, 90%);
-    --grayish-blue: hsl(219, 14%, 63%);
-    --dark-grayish-blue: hsl(219, 12%, 42%);
-    --very-dark-grayish-blue: hsl(224, 21%, 14%);
+	--red: hsl(1, 90%, 64%);
+	--blue: hsl(219, 85%, 26%);
+	--white: hsl(0, 0%, 100%);
+	--very-light-grayish-blue: hsl(210, 60%, 98%);
+	--light-grayish-blue-one: hsl(211, 68%, 94%);
+	--light-grayish-blue-two: hsl(205, 33%, 90%);
+	--grayish-blue: hsl(219, 14%, 63%);
+	--dark-grayish-blue: hsl(219, 12%, 42%);
+	--very-dark-grayish-blue: hsl(224, 21%, 14%);
 }
 
 body {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    min-height: 100vh;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	min-height: 100vh;
+	font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    margin: 8px 12px;
 }
-.name {
-    color: var(--very-dark-grayish-blue);
+
+h1 {
+    font-size: 20px;
+}
+
+img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.three {
     font-weight: 800;
+    font-size: 16px;
+    background-color: var(--blue);
+    padding: 1px 8px;
+    color: var(--white);
+    border-radius: 6px;
+    margin-left: 5px;
+}
+
+.notification-card-b {
+    background-color: var(--light-grayish-blue-one);
+    margin: 5px 15px;
+    display: flex;
+    padding: 10px;
+}
+
+.notification-card {
+    background-color: var(--light-grayish-blue-two);
+    margin: 0px 15px;
+    display: flex;
+    padding: 10;
+    margin: 5px 15px;
+}
+
+.name {
+	color: var(--very-dark-grayish-blue);
+	font-weight: 800;
 }
 
 .notification-msg {
-    color: var(--grayish-blue);
+	color: var(--grayish-blue);
 }
 
 .msg-content {
-    color: var(--dark-grayish-blue);
+	color: var(--dark-grayish-blue);
 }
 
 .time {
-    color: var(--light-grayish-blue-two);
+	color: var(--grayish-blue);
+    margin: 0;
+}
+
+.private-msg {
+    background-color: var(--white);
+    border: 1px solid black;
+    padding: 15px 15px 15px 15px;
 }
 
 .kimberly-card {
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+footer {
+	text-align: center;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+    margin-top: 20px;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
 
 .fa-brands {
-    font-size: 30px;
+	font-size: 30px;
+	margin-top: 30px;
+    color: var(--blue);
 }
